@@ -1,4 +1,5 @@
 ## Redux Cart Store with CRUD Operations in React
+#### Deployed Link: https://cn-reduxcart.netlify.app/
 
 This is a simple implementation of a shopping cart store using Redux and React that includes CRUD (Create, Read, Update, Delete) operations for managing cart items.
 
