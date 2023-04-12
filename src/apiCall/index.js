@@ -1,3 +1,5 @@
+// HANDLE API CALL FOR OUR APP 
+
 const customFetch = async (url, { body, ...rest }) => {
   const config = {
     ...rest,

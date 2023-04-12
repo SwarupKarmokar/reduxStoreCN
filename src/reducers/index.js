@@ -1,3 +1,5 @@
+// CREATING REDUCERS FOR OUR REDUX STORE WHICH TAKE ACTIONS AND MUTED STATE 
+
 import {
   Add_products,
   Add_cart,
@@ -23,7 +25,7 @@ export default function products(state = initialState, actions) {
       break;
     case Add_cart:
       let flag = state.cart.indexOf(actions.cart);
-      if (flag!==-1) {
+      if (flag !== -1) {
         actions.cart.qty += 1;
         return {
           ...state,

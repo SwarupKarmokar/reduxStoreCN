@@ -4,6 +4,8 @@ export const Product_view = "product_view";
 export const Cart_items = "Cart_items";
 export const update_cart = "update_cart";
 export const delete_cart = "delete_cart";
+
+// CREATING ACTION FOR OUR REDUX-APP AND EXPORTING IT 
 export function addproducts(products) {
   return {
     type: Add_products,
